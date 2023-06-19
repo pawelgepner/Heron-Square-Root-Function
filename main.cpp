@@ -611,14 +611,14 @@ float SQRT_15bits(float x)
 
 float SQRT_23bits(float x)
 {
-	int i = *(int *)&x;
-	i = 0x5f1110a0 - (i >> 1);
-	float y = *(float *)&i;
-	float c = x * y * y;
-	y = y * (2.2825186f - c * (2.2533049f - c));
-	c = x * y;
-	y = c * (1.5f - 0.5f * c * y);
-	return y;
+    union { float f; uint32_t u;} y = {x}, yy={x};
+    y.u= 0x5f1110a0-(y.u >> 1);
+    float c=x*y.f*y.f;
+    y.f=y.f*(2.2825186f -c*(2.2533049f - c));
+    yy.u=y.u - 0x00800000;
+    y.f=x*y.f;
+    y.f=y.f+(x-y.f*y.f)*yy.f;
+    return y.f;
 }
 
 template <class T, class F>
