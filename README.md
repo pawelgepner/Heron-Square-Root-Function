@@ -11,6 +11,7 @@ In this repository you can find all code examples used in article published in J
  - Leonid Moroz
  - Volodymyr Samotyy
  - Mariusz Węgrzyn
+ - Nataliia Gavkalova
 
 ## BUILD INSTRUCTION
 
