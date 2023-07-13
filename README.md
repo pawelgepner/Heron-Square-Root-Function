@@ -1,6 +1,6 @@
 # FLOATING POINT SQUARE ROOT FUNCTIONS
 
-In this repository you can find all code examples used in article published in Journal of Numerical Mathematics:
+In this repository you can find all code examples used in article published in SIAM Journal on Computing (SICOMP) :
 
 *"Software algorithms for computing floating point square root"*
 
