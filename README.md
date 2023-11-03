@@ -1,6 +1,6 @@
 # FLOATING POINT SQUARE ROOT FUNCTIONS
 
-In this repository, you can find all code examples used in an article published in Computer Physics Communications :
+In this repository, you can find all code examples used in an article published in SoftwareX:
 
 *"Software algorithms for computing floating point square root"*
 
