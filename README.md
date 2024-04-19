@@ -1,8 +1,8 @@
 # FLOATING POINT SQUARE ROOT FUNCTIONS
 
-In this repository, you can find all code examples used in an article published in Signal Processing (Elsevier):
+In this repository, you can find all code examples used in an article published in Numerical Algorithms(Springer):
 
-*"Software algorithms for computing floating point square root"*
+*"Fast and accurate approximation algorithms for computing floating point square root"*
 
 **By:**
 
